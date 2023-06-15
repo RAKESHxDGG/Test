@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #15202b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_box{
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input_box input{
+    width: 100%;
+    height: 60px;
+    padding: 0px 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: white;
+    background: transparent;
+    margin: 0px 0px 15px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px;
+}
+#message{
+    position: absolute;
+    bottom: 55px;
+    color: white;
+    font-size: 15px;
+    display: none;
+    font-family: 'Righteous', cursive;
+    left: 0px;
+}
+::placeholder{
+    font-size: 15px;
+}
+#eyeicon{
+    background: transparent;
+    border: transparent;
+    position: absolute;
+    bottom: 102px;
+    left: 350px;
+    cursor: pointer;
+    color: white;
+}
+/* #pass_text{
+    position: absolute;
+    color: white;
+    bottom: 70px;
+    left: 20px;
+    background: #201f21 ;
+    letter-spacing: 3px;
+    font-size: 12px;
+    padding: 0;
+} */
+.sign_in{
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    margin: 0px 0px 20px 0px; 
+}
+#submit{
+    padding: 9px 167.5px;
+    border: 1px white solid;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+    margin-top: 20px;
+}

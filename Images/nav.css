@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+nav{
+    background: #192734;
+    width: 100%;
+}
+nav img{
+    width: 200px;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 70px;
+}
+.nav_links li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 35px;
+    justify-content: left;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Righteous', cursive;
+}
+nav a:hover{
+    color: #f7f7f7c9;
+}
+.social_icons{
+    margin: 0px 0px 0px 400px;
+}
+.social_icons li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 35px;
+    justify-content: right;
+}
+.login{
+    padding: 9px 25px;
+    border: 1px transparent;
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: #192734;
+    background: white;
+    cursor: pointer;
+}
